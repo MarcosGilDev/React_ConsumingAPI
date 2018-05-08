@@ -1,7 +1,7 @@
 # React_ConsumingAPI
 
-Steps should be followed to create this project:
-1- Create new package.json using npm init.
+Steps should be followed to create this project:__
+1- Create new package.json using npm init.__
     1- You need a description and a repository field
 2- Install npm using "npm i --save"
 3- Create a web pack using "npm install webpack --save-dev"
