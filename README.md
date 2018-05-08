@@ -1,13 +1,27 @@
 # React_ConsumingAPI
 
-Steps should be followed to create this project:__
-1- Create new package.json using npm init.__
+Steps should be followed to create this project:
+
+
+1- Create new package.json using npm init.
+
+
     1- You need a description and a repository field
+
+
 2- Install npm using "npm i --save"
+
+
 3- Create a web pack using "npm install webpack --save-dev"
+
+
 4- Create a new file with the name "webpack.config.js"
+
+
 5- Add the following line in you package.json:
-    1- "scripts": {
+
+
+        "scripts": {
             "start": "webpack"
         },
 6- Install babel using "npm i babel-core babel-preset-es2015 babel-preset-react --only:dev"
