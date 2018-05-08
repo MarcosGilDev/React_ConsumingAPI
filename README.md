@@ -25,8 +25,14 @@ Steps should be followed to create this project:
             "start": "webpack"
         },
 6- Install babel using "npm i babel-core babel-preset-es2015 babel-preset-react --only:dev"
+
+
 7- Create a file with the name ".babelrc"
+
+
 8- Add a babel loader using "npm i babel-loader --only:dev"
+
+
 9- webpack.config has to look like the following lines:
     const path = require('path');
 
@@ -47,6 +53,8 @@ Steps should be followed to create this project:
         }
     };
 10- Add webpack development server using "npm i webpack-dev-server --only:dev" and "npm i webpack-cli"
+
+
 11- Change the initial scrip in package.json: 
     "scripts": {
         "start": "webpack-dev-server"
@@ -74,6 +82,8 @@ Steps should be followed to create this project:
         }
     };
 13- Install css loader using "npm i css-loader style-loader --only:dev"
+
+
 14- Final webpack.config.js
     const path = require('path');
 
@@ -103,9 +113,17 @@ Steps should be followed to create this project:
         }
     };
 14- Install react using "npm i react react-dom"
+
+
 15- Install "npm i babel-preset-react"s
+
+
 16- Install "npm install --save react-redux"
+
+
 17- Install "npm install --save redux"
+
+
 18- Final .babelrc:
     {
         "presets": ["es2015", "react"]
