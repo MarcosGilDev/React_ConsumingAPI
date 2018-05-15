@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MarcosGilDev/React_ConsumingAPI#readme",
   "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "webpack": "^4.8.1"
   },
   "dependencies": {
