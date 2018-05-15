@@ -125,17 +125,16 @@ Steps should be followed to create this project:
 
 
 18- Final .babelrc:
-    {
-        "presets": ["es2015", "react"]
-    }
+    "presets": ["es2015", "react"]
+
+
 19- To enable the JS debbuger use add the line below in webpack.config.js:
-    {
         devtool: "#eval-source-map",
-    }
+
+
 20- To enable detructuring "...state" : npm install --save-dev babel-plugin-transform-object-rest-spread
+
+
 21- Enabled detructuring step 20 .babelrc:
-    {
         "presets": ["es2015", "react"],
-        "plugins": ["transform-object-rest-spread"]
-    }
 
