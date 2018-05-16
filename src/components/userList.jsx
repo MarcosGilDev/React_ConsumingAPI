@@ -5,7 +5,6 @@ import UserCardContainer from '../containers/userCardContainer';
 class UserList extends Component {
   constructor(props){
     super(props);
-
     this.renderUsers = this.renderUsers.bind(this);
   }
 

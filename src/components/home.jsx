@@ -5,7 +5,6 @@ import UserList from '../components/userList.jsx';
 class Home extends Component {
   constructor(props) {
     super(props);
-    debugger;
     this.state = { users: [] }
     this.handlingKey = this.handlingKey.bind(this);
   }

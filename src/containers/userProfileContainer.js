@@ -6,4 +6,4 @@ function mapStateToProps(state) {
     return { user: state.user, followers: stat.followers, repos: state.repos };
 }
 
-export default connect(null, mapStateToProps)()
+export default connect(null, mapStateToProps)(userProfile)

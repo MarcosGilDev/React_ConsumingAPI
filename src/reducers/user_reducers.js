@@ -1,22 +1,20 @@
-import { FETCH_USER, FETCH_FOLLOWERS, FETCH_REPOS } from '../actions';
+import { SET_USER, SET_FOLLOWERS, SET_REPOS } from '../actions';
 
 export default function (state = {}, action) {
-    
-    debugger;
     switch (action.type) {
-        case FETCH_USER:
+        case SET_USER:
             const { user } = action;
             return {
                 ...state,
                 user,
             };
-        case FETCH_FOLLOWERS:
+        case SET_FOLLOWERS:
             const { followers } = action;
             return {
                 ...state,
                 followers,
             };
-        case FETCH_REPOS:
+        case SET_REPOS:
             const { repos } = action;
             return {
                 ...state,
