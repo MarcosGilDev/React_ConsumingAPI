@@ -13,10 +13,11 @@ const createStoreWithMiddleware = applyMiddleware(promises)(createStore);
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter history={browserHistory}>
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route path='/user' component={UserProfile}/>
-        </Switch>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/user" component={UserProfile} />
+      </Switch>
     </BrowserRouter>
-  </Provider>
-  , document.querySelector('.container'));
+  </Provider>,
+  document.querySelector('.container'),
+);
