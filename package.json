@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/MarcosGilDev/React_ConsumingAPI#readme",
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.12.1",
     "webpack": "^4.8.1"
   },
   "dependencies": {
